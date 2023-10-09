@@ -32,10 +32,10 @@ export default function Login() {
             {error && <div className="alert">{error}</div>}
             <form onSubmit={handlecheck}>
                 <label>Email:
-                    <input className ="diya" type="email" ref={email} required />
+                    <input className ="arya" type="email" ref={email} required />
                 </label>
                 <label>Password:
-                    <input className ="diya" type="password" ref={password} required />
+                    <input className ="arya" type="password" ref={password} required />
                 </label>
                 <button disabled={loading} className="button" type="submit">LOGIN</button>
             </form>
